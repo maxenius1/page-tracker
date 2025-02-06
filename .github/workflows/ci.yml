@@ -1,12 +1,10 @@
 # .github/workflows/ci.yml
-
 name: Continuous Integration
 
 on:
   pull_request:
     branches:
-      - master
-  
+      - master  
   push:
     branches:
       - master
